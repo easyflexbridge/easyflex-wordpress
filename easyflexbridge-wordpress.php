@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Easyflex bridge
-Plugin URI: https://github.com/joeydenbraven/easyflex-bridge
+Plugin URI: https://github.com/easyflexbridge/easyflexbridge-wordpress
 Description: Importeer Easyflex vacatures in eigen website zodat u deze in uw eigen omgeving kunt tonen.
 Version: 1.0
 Author: easyflexwordpress.nl
@@ -28,7 +28,7 @@ $plugin = plugin_basename(__FILE__);
 add_filter("plugin_action_links_$plugin", '_mw_easyflexbridge_plugin_details' );
 ?>
 <?php
-//include_once( _EASYFLEXBRIDGE_DIR . 'hooks/github/connect.php' );
+include_once( _EASYFLEXBRIDGE_DIR . 'vendor/githubupdater/update.php' );
 include_once( _EASYFLEXBRIDGE_DIR . 'hooks/advancedcustomfieldspro/acf-config.php' );
 include_once( _EASYFLEXBRIDGE_DIR . 'hooks/advancedcustomfieldspro/acf-fields.php' );
 include_once( _EASYFLEXBRIDGE_DIR . 'hooks/advancedcustomfieldspro/acf-settings.php' );
@@ -48,4 +48,12 @@ include_once( _EASYFLEXBRIDGE_DIR . 'hooks/wordpress/shortcodes.php' );
 include_once( _EASYFLEXBRIDGE_DIR . 'hooks/wordpress/urlparams.php' );
 include_once( _EASYFLEXBRIDGE_DIR . 'hooks/wordpress/beforequery.php' );
 include_once( _EASYFLEXBRIDGE_DIR . 'hooks/wordpress/functions.php' );
+?>
+<?php
+require _EASYFLEXBRIDGE_DIR.'vendor/githubupdates/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker( 'https://github.com/easyflexbridge/easyflexbridge-wordpress/', _EASYFLEXBRIDGE_DIR.'easyflexbridge-wordpress.php', 'easyflexbridge-wordpress');
+//Optional: If you're using a private repository, specify the access token like this:
+//$myUpdateChecker->setAuthentication('your-token-here');
+//Optional: Set the branch that contains the stable release.
+//$myUpdateChecker->setBranch('stable-branch-name');
 ?>
