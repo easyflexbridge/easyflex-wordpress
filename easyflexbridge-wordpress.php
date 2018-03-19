@@ -14,7 +14,7 @@ define('_EASYFLEXBRIDGE_STRING', 'easyflexbridge' );
 define('_EASYFLEXBRIDGE_DIR', plugin_dir_path(__FILE__) );
 define('_EASYFLEXBRIDGE_URL', plugin_dir_url( __FILE__ ) );
 define('_EASYFLEXBRIDGE_VERSION', '1.0' );
-define('_EASYFLEXBRIDGE_SERVER', '136.144.175.92' );
+define('_EASYFLEXBRIDGE_SERVER', 'https://api.easyflexwordpress.nl' );
 ?>
 <?php
 // Add settings link on plugin page

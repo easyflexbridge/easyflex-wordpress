@@ -1,8 +1,15 @@
 <?php
 // wp-content/plugins/easyflex-bridge/tests/debug.php
-//header("Content-Type: application/json");
+header("Content-Type: application/json");
 require_once $_SERVER['DOCUMENT_ROOT']."/wp-load.php";
 $key      = get_field('_mw_easyflexbridge_key','option');
+
+//$server   = new easyflexbridge_server;
+//print_r($server);
+
+//$easyflex = new easyflexbridge_vacatures($key,'easyflexbridge_fetch_vacatures');
+//print_r($easyflex->debuggin);
+
 
 //easyflexbridge_session::create( array("timestamp" => date('H:i')) );
 //print_r($_SESSION);
@@ -12,13 +19,13 @@ $key      = get_field('_mw_easyflexbridge_key','option');
 //$test     = new easyflexbridge_sync_vacatures($key);
 //echo json_encode($test->vacatures['easyflexbridge_process_vacatures'], JSON_NUMERIC_CHECK | JSON_FORCE_OBJECT | JSON_PRETTY_PRINT);
 //echo json_encode($_SESSION,JSON_NUMERIC_CHECK | JSON_FORCE_OBJECT | JSON_PRETTY_PRINT);
-echo do_shortcode('[easyflexbridge widget="login"]');
-echo do_shortcode('[easyflexbridge widget="account"]');
-echo do_shortcode('[easyflexbridge widget="register"]');
+//echo do_shortcode('[easyflexbridge widget="login"]');
+//echo do_shortcode('[easyflexbridge widget="account"]');
+//echo do_shortcode('[easyflexbridge widget="register"]');
 
-echo do_shortcode('[easyflexbridge widget="vacatureapply" postid="1120"]');
-echo do_shortcode('[easyflexbridge widget="vacaturesearch"]');
-echo do_shortcode('[easyflexbridge widget="vacaturefilter"]');
+//echo do_shortcode('[easyflexbridge widget="vacatureapply" postid="1120"]');
+//echo do_shortcode('[easyflexbridge widget="vacaturesearch"]');
+//echo do_shortcode('[easyflexbridge widget="vacaturefilter"]');
 
 //$filters      = new easyflexbridge_filter_vacatures;
 //echo json_encode($filters,JSON_NUMERIC_CHECK | JSON_FORCE_OBJECT | JSON_PRETTY_PRINT);

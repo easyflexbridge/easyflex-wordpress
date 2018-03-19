@@ -3,6 +3,7 @@ Class easyflexbridge_vacatures {
 
   public $vacatures        = false;
   public $feedback         = false;
+  //public $debuggin         = false;
 
   function __construct($key,$function=false,$args=false){
     if($key!='' && !is_array($key)){
@@ -97,20 +98,26 @@ Class easyflexbridge_vacatures {
       try {
         $obj        = $client->__call('wm_vacature_all', array('wm_vacature_all' => $params ),$options );
         $array      = json_decode( json_encode($obj, JSON_NUMERIC_CHECK | JSON_FORCE_OBJECT | JSON_PRETTY_PRINT) , TRUE);
+
+        $results    = false;
+        $message    = 'Omzetten feedback mislukt.';
         if( array_filter($array) ){
-          if($array['fields']['item']){
+          if(isset($array['fields']['item']) && $array['fields']['item']){
             $results  = array();
-            foreach($array['fields']['item'] as $item_key => $item_values){
-              $results[$item_values['wm_vacature_idnr']] = $item_values;
+            if( isset($array['fields']['item'][0]) ){
+              foreach($array['fields']['item'] as $item_key => $item_values){
+                $results[$item_values['wm_vacature_idnr']] = $item_values;
+              }
+            } else {
+              $results[$array['fields']['item']['wm_vacature_idnr']] = $array['fields']['item'];
             }
-            $feedback = array('access'=>true, 'results'=>$results,'message'=>'Toegang tot Easyflex en vacatures gevonden.','debug'=>'');
+            $message = 'Er zijn vacatures gevonden.';
           }
           _mw_easyflexbridge_plugin_status('vacatures_updating');
         } else {
-          $feedback = array('access'=>true,'results'=>false,'message'=>'Er zijn nog geen vacatures toegevoegd in Easyflex.');
           _mw_easyflexbridge_plugin_status('vacatures_empty');
         }
-
+        $feedback = array('access'=>true,'results'=>$results,'message'=>'Er zijn nog geen vacatures toegevoegd in Easyflex.');
         return $feedback;
       } catch (Exception $e) {
         $array      = json_decode( json_encode($e, JSON_NUMERIC_CHECK | JSON_FORCE_OBJECT | JSON_PRETTY_PRINT) , TRUE);

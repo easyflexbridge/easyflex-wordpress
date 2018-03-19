@@ -14,9 +14,9 @@ Class easyflexbridge_server {
 
     // Set some options
     $curl_config = array(
-        CURLOPT_URL => 'https://api.easyflexworpress.nl',
+        CURLOPT_URL => _EASYFLEXBRIDGE_SERVER,
         CURLOPT_RETURNTRANSFER => 1,
-        CURLOPT_REFERER => "http://www.wowhead.com",
+        CURLOPT_REFERER => $url,
         CURLOPT_POSTFIELDS => array(
           "url"       => $url,
           "api"       => '2w6h5FQMb37x2SzGjj3wGa3q',
@@ -38,7 +38,7 @@ Class easyflexbridge_server {
       $return['missing_vacatures']  = ($feedback['easyflexbridge_create']?$feedback['easyflexbridge_create']:false);
       $return['existing_vacatures'] = ($feedback['easyflexbridge_update']?$feedback['easyflexbridge_update']:false);
       $return['deleted_vacatures']  = ($feedback['easyflexbridge_delete']?$feedback['easyflexbridge_delete']:false);
-      $return['debug']  = ($feedback['debug']?$feedback['debug']:false);
+      $return['server_debug']       = ($feedback['easyflexbridge_debug']?$feedback['easyflexbridge_debug']:false);
     }
     return $return;
   }
