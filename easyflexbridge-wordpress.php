@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Easyflex bridge
-Plugin URI: https://github.com/joeydenbraven/easyflex-bridge
+Plugin URI: https://github.com/easyflexbridge/easyflexbridge-wordpress
 Description: Importeer Easyflex vacatures in eigen website zodat u deze in uw eigen omgeving kunt tonen.
-Version: 1.0
+Version: 1.1
 Author: easyflexwordpress.nl
 Author URI: https://www.easyflexwordpress.nl
 */
