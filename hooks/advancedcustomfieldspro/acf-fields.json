@@ -1,0 +1,1705 @@
+[
+    {
+        "key": "group_5a9c6ac4555e3",
+        "title": "Easyflex bridge algemene instellingen",
+        "fields": [
+            {
+                "key": "field_5a9c6ac4581df",
+                "label": "Plugin api's en sleutels",
+                "name": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a9c6ac458258",
+                "label": "Easyflex sleutel",
+                "name": "_mw_easyflexbridge_key",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9c6ac45833a",
+                "label": "Easyflexwordpress api",
+                "name": "_mw_easyflexbridge_api",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9c6ac45889a",
+                "label": "Plugin email instellingen",
+                "name": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a9c6ac458911",
+                "label": "Bedrijfsnaam",
+                "name": "_mw_easyflexbridge_emails_name",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9c6ac458987",
+                "label": "Emailadres",
+                "name": "_mw_easyflexbridge_emails_emailaddress",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9c6e0ea198e",
+                "label": "Plugin vacatures instellingen",
+                "name": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a9c6e24a198f",
+                "label": "Menu naam",
+                "name": "_mw_easyflexbridge_vacatures_menu_name",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Vacatures",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9c6e37a1990",
+                "label": "Menu naam enkelvoud",
+                "name": "_mw_easyflexbridge_vacatures_menu_name_single",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Vacature",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9c6e4ba1991",
+                "label": "Menu naam meervoud",
+                "name": "_mw_easyflexbridge_vacatures_menu_name_multiple",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Vacatures",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9c6e5da1992",
+                "label": "Url basis",
+                "name": "_mw_easyflexbridge_vacatures_posttype_base",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "vacatures",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9c6e80a1993",
+                "label": "Eigen vacatures toevoegen toegestaan?",
+                "name": "_mw_easyflexbridge_vacatures_post_editable",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "nee": "Nee",
+                    "ja": "Ja"
+                },
+                "allow_null": 0,
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "nee : Nee",
+                "layout": "vertical",
+                "return_format": "value"
+            },
+            {
+                "key": "field_5a9c88c02f331",
+                "label": "Plugin account instellingen",
+                "name": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a9c956793d0d",
+                "label": "Welke account gegevens wilt u tonen bij het registreren?",
+                "name": "_mw_easyflexbridge_account_shortcode_apply",
+                "type": "select",
+                "instructions": "Een registratie formulier kunt u makkelijk plaatsen met de shortcode: [easyflexbridge widget=”register”].",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "wm_inschrijving_geslacht": "Geslacht",
+                    "wm_inschrijving_burgerlijkestaat": "Burgerlijke staat",
+                    "wm_inschrijving_voorletters": "Voorletters",
+                    "wm_inschrijving_roepnaam": "Roepnaam",
+                    "wm_inschrijving_voorvoegsels": "Voorvoegsels",
+                    "wm_inschrijving_achternaam": "Achternaam",
+                    "wm_inschrijving_adres": "Adres",
+                    "wm_inschrijving_huisnummer": "Huisnummer",
+                    "wm_inschrijving_huisnummer_tvg": "Huisnummer toevoeging",
+                    "wm_inschrijving_postcode": "Postcode",
+                    "wm_inschrijving_plaats": "Plaats",
+                    "wm_inschrijving_landcode": "Land",
+                    "wm_inschrijving_geboortedatum": "Geboortedatum",
+                    "wm_inschrijving_email": "Email",
+                    "wm_inschrijving_telefoon": "Telefoon",
+                    "wm_inschrijving_mobiel": "Mobiel",
+                    "wm_inschrijving_rijbewijs_a1": "Bezit rijbewijs a1 (ja\/nee)",
+                    "wm_inschrijving_rijbewijs_a2": "Bezit rijbewijs a2 (ja\/nee)",
+                    "wm_inschrijving_rijbewijs_b": "Bezit rijbewijs b (ja\/nee)",
+                    "wm_inschrijving_rijbewijs_c": "Bezit rijbewijs c (ja\/nee)",
+                    "wm_inschrijving_rijbewijs_d": "Bezit rijbewijs d (ja\/nee)",
+                    "wm_inschrijving_rijbewijs_eb": "Bezit rijbewijs eb (ja\/nee)",
+                    "wm_inschrijving_rijbewijs_ec": "Bezit rijbewijs ec (ja\/nee)",
+                    "wm_inschrijving_rijbewijs_ed": "Bezit rijbewijs ed (ja\/nee)",
+                    "wm_inschrijving_rijbewijs_am": "Bezit rijbewijs am (ja\/nee)",
+                    "wm_inschrijving_cv": "CV",
+                    "wm_inschrijving_foto": "Foto",
+                    "wm_inschrijving_opmerking": "Opmerkingen"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 1,
+                "ui": 1,
+                "ajax": 1,
+                "return_format": "array",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5a9c8cd2b0053",
+                "label": "Welke account gegevens wilt u tonen in het account overzicht?",
+                "name": "_mw_easyflexbridge_account_shortcode_information",
+                "type": "select",
+                "instructions": "Een account overzicht kunt u makkelijk plaatsen met de shortcode: [easyflexbridge widget=”account”].",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "fw_flexwerker_idnr": "ID nummer",
+                    "fw_geslacht": "Geslacht",
+                    "fw_voorletters": "Voorletters",
+                    "fw_voorvoegsels": "Voorvoegsel",
+                    "fw_achternaam": "Achternaam",
+                    "fw_roepnaam": "Voornaam",
+                    "fw_geboortedatum": "Geboortedatum",
+                    "fw_woonadres_postcode": "Postcode",
+                    "fw_woonadres_plaats": "Plaats",
+                    "fw_woonadres_straat": "Adres",
+                    "fw_woonadres_huisnummer": "Huisnummer",
+                    "fw_woonadres_huisnummer_toevoeging": "Huisnummer toevoeging",
+                    "fw_woonadres_land_code": "Land"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 1,
+                "ui": 1,
+                "ajax": 1,
+                "return_format": "array",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5a9c998c31616",
+                "label": "Email reply bedrijfsnaam",
+                "name": "_mw_easyflexbride_accounts_email_from_name",
+                "type": "text",
+                "instructions": "Indien leeg worden de algemene email instellingen binnen deze plugin gebruikt.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9c99cd31617",
+                "label": "Email reply email adres",
+                "name": "_mw_easyflexbride_accounts_email_from_address",
+                "type": "text",
+                "instructions": "Indien leeg worden de algemene email instellingen binnen deze plugin gebruikt.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9c9a3b31618",
+                "label": "Email tekst voor nieuwe account registratie",
+                "name": "_mw_easyflexbride_accounts_email_content_reply",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "easyflexbridge_general_settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5a941c306c377",
+        "title": "Easyflex bridge vacatures instellingen",
+        "fields": [
+            {
+                "key": "field_5a9c63e3fd866",
+                "label": "Vacature zoekbalk",
+                "name": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a9c6413fd867",
+                "label": "Welke items wil je in de zoekbalk opnemen?",
+                "name": "_mw_easyflexbride_vacatures_searchbar_items",
+                "type": "select",
+                "instructions": "Een vacature zoekbalk kunt u makkelijk plaatsen met de shortcode: [easyflexbridge widget=”vacaturesearch”].",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "wm_vacature_idnr": "Vacature nummer",
+                    "wm_vacature_postcode": "Postcode",
+                    "wm_vacature_postcode_org": "Originele postcode",
+                    "wm_vacature_plaats": "Plaats",
+                    "wm_vacature_landcode": "Landcode",
+                    "wm_vacature_periode": "Periode",
+                    "wm_vacature_functie_idnr": "Functie ID",
+                    "wm_vacature_functie": "Functie",
+                    "wm_vacature_functie_omsch": "Functie omschrijving",
+                    "wm_vacature_soort": "Vacature soort",
+                    "wm_vacature_relatie_id": "Relatie ID",
+                    "wm_vacature_relatie_bedrijfsnaam": "Relatie bedrijfsnaam",
+                    "wm_vacature_bedrijfstak": "Bedrijfstak",
+                    "wm_vacature_businessunits": "Businessunits",
+                    "wm_vacature_wmnaam": "Werkmaatschappij naam",
+                    "wm_vacature_wmlocatie_id": "Werkmaatschappij ID",
+                    "wm_vacature_wmlocatie_adres": "Werkmaatschappij adres",
+                    "wm_vacature_wmlocatie_huisnr": "Werkmaatschappij huisnummer",
+                    "wm_vacature_wmlocatie_huisnr_tv": "Werkmaatschappij huisnummer toevoeging",
+                    "wm_vacature_wmlocatie_plaats": "Werkmaatschappij plaats",
+                    "wm_vacature_contactpersoon_id": "Contactpersoon ID",
+                    "wm_vacature_contactpersoon": "Contactpersoon naam",
+                    "wm_vacature_urenperweek": "Uren per week",
+                    "wm_vacature_werktijden": "Werktijden",
+                    "wm_vacature_loonindicatie": "Loonindicatie",
+                    "wm_vacature_loonperiode": "Loonperiode",
+                    "wm_vacature_eisen": "Eisen",
+                    "wm_vacature_omschrijving": "Omschrijving",
+                    "wm_vacature_rijbewijs": "Rijbewijs",
+                    "wm_vacature_memo": "Memo"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 1,
+                "ui": 1,
+                "ajax": 1,
+                "return_format": "array",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5a9c694d9e4e6",
+                "label": "Vacature filters",
+                "name": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a9c69599e4e7",
+                "label": "Welke items wil je in het filter opnemen?",
+                "name": "_mw_easyflexbride_vacatures_filter_items",
+                "type": "select",
+                "instructions": "Een vacature filter kunt u makkelijk plaatsen met de shortcode: [easyflexbridge widget=”vacaturefilter”].",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "wm_vacature_idnr": "Vacature nummer",
+                    "wm_vacature_postcode": "Postcode",
+                    "wm_vacature_postcode_org": "Originele postcode",
+                    "wm_vacature_plaats": "Plaats",
+                    "wm_vacature_landcode": "Landcode",
+                    "wm_vacature_periode": "Periode",
+                    "wm_vacature_functie_idnr": "Functie ID",
+                    "wm_vacature_functie": "Functie",
+                    "wm_vacature_functie_omsch": "Functie omschrijving",
+                    "wm_vacature_soort": "Vacature soort",
+                    "wm_vacature_relatie_id": "Relatie ID",
+                    "wm_vacature_relatie_bedrijfsnaam": "Relatie bedrijfsnaam",
+                    "wm_vacature_bedrijfstak": "Bedrijfstak",
+                    "wm_vacature_businessunits": "Businessunits",
+                    "wm_vacature_wmnaam": "Werkmaatschappij naam",
+                    "wm_vacature_wmlocatie_id": "Werkmaatschappij ID",
+                    "wm_vacature_wmlocatie_adres": "Werkmaatschappij adres",
+                    "wm_vacature_wmlocatie_huisnr": "Werkmaatschappij huisnummer",
+                    "wm_vacature_wmlocatie_huisnr_tv": "Werkmaatschappij huisnummer toevoeging",
+                    "wm_vacature_wmlocatie_plaats": "Werkmaatschappij plaats",
+                    "wm_vacature_contactpersoon_id": "Contactpersoon ID",
+                    "wm_vacature_contactpersoon": "Contactpersoon naam",
+                    "wm_vacature_urenperweek": "Uren per week",
+                    "wm_vacature_werktijden": "Werktijden",
+                    "wm_vacature_loonindicatie": "Loonindicatie",
+                    "wm_vacature_loonperiode": "Loonperiode",
+                    "wm_vacature_eisen": "Eisen",
+                    "wm_vacature_omschrijving": "Omschrijving",
+                    "wm_vacature_rijbewijs": "Rijbewijs",
+                    "wm_vacature_memo": "Memo"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 1,
+                "ui": 1,
+                "ajax": 1,
+                "return_format": "array",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5a9c868dc4485",
+                "label": "Vacature reacties",
+                "name": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a9c86a2c4486",
+                "label": "Welke items wil je in het reactieformulier opnemen?",
+                "name": "_mw_easyflexbride_vacatures_reply_items",
+                "type": "select",
+                "instructions": "Een vacature reactieformulier kunt u makkelijk plaatsen met de shortcode: [easyflexbridge widget=”vacatureapply”].",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "wm_vacature_reactie_geslacht": "Geslacht",
+                    "wm_vacature_reactie_voorletters": "Voorletters",
+                    "wm_vacature_reactie_voorvoegsel": "Voorvoegsel",
+                    "wm_vacature_reactie_achternaam": "Achternaam",
+                    "wm_vacature_reactie_voornaam": "Voornaam",
+                    "wm_vacature_reactie_gebdatum": "Geboortedatum",
+                    "wm_vacature_reactie_postcode": "Postcode",
+                    "wm_vacature_reactie_plaats": "Plaats",
+                    "wm_vacature_reactie_adres": "Adres",
+                    "wm_vacature_reactie_huisnr": "Huisnummer",
+                    "wm_vacature_reactie_tvg": "Huisnummer toevoeging",
+                    "wm_vacature_reactie_land": "Land",
+                    "wm_vacature_reactie_telefoon": "Telefoon",
+                    "wm_vacature_reactie_mobiel": "Mobiel",
+                    "wm_vacature_reactie_email": "Email",
+                    "wm_vacature_reactie_cv": "CV",
+                    "wm_vacature_reactie_foto": "Foto",
+                    "wm_vacature_reactie_opmerking": "Opmerking"
+                },
+                "default_value": [],
+                "allow_null": 0,
+                "multiple": 1,
+                "ui": 1,
+                "ajax": 1,
+                "return_format": "array",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5a9c6d3611a0d",
+                "label": "Email reply bedrijfsnaam",
+                "name": "_mw_easyflexbride_vacatures_email_from_name",
+                "type": "email",
+                "instructions": "Indien leeg worden de algemene email instellingen binnen deze plugin gebruikt.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_5a9c6ffcc13b7",
+                "label": "Email reply email adres",
+                "name": "_mw_easyflexbride_vacatures_email_from_address",
+                "type": "email",
+                "instructions": "Indien leeg worden de algemene email instellingen binnen deze plugin gebruikt.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_5a9c6fc7c13b6",
+                "label": "Email tekst voor nieuwe vacature reactie",
+                "name": "_mw_easyflexbride_vacatures_email_content_reply",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "easyflexbridge_vacatures_settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5a9429a5ce956",
+        "title": "Easyflex bridge vacatures velden",
+        "fields": [
+            {
+                "key": "field_5a943017a4d48",
+                "label": "Vacature nummer",
+                "name": "wm_vacature_idnr",
+                "type": "number",
+                "instructions": "Het identificatienummer (idnr) van de vacature. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_idnr'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_5a943063a4d49",
+                "label": "Postcode",
+                "name": "wm_vacature_postcode",
+                "type": "text",
+                "instructions": "De eerste 4 cijfers van de postcode van de vacature. als er geen postcode bekend is krijgt deze de waarde 0. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_postcode'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a94308ea4d4a",
+                "label": "Originele postcode",
+                "name": "wm_vacature_postcode_org",
+                "type": "text",
+                "instructions": "de orginele postcode zoals ingevoerd in Easyflex. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_postcode_org'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9430a7a4d4b",
+                "label": "Plaats",
+                "name": "wm_vacature_plaats",
+                "type": "text",
+                "instructions": "De plaats van de vacature. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_plaats'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9430b9a4d4c",
+                "label": "Landcode",
+                "name": "wm_vacature_landcode",
+                "type": "text",
+                "instructions": "De landcode van de vacature, bijvoorbeeld ‘NL’ of ‘DE’. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_landcode'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9430d1a4d4d",
+                "label": "Periode",
+                "name": "wm_vacature_periode",
+                "type": "text",
+                "instructions": "Periode waarin de vacature geldig is. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_periode'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9430f1a4d4e",
+                "label": "Functie ID",
+                "name": "wm_vacature_functie_idnr",
+                "type": "number",
+                "instructions": "Idnr van de functie van de vacature. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_functie_idnr'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_5a943114a4d4f",
+                "label": "Functie",
+                "name": "wm_vacature_functie",
+                "type": "text",
+                "instructions": "Naam van de functie van de vacature. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_functie'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a943126a4d50",
+                "label": "Functie omschrijving",
+                "name": "wm_vacature_functie_omsch",
+                "type": "text",
+                "instructions": "Omschrijving van de functie van de vacature. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_functie_omsch'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a943137a4d51",
+                "label": "Vacature soort",
+                "name": "wm_vacature_soort",
+                "type": "text",
+                "instructions": "Soort van de vacature (“Uitzendwerk”, “Onregelmatig”, “Vakantiewerk”). <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_soort'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a943153a4d52",
+                "label": "Relatie ID",
+                "name": "wm_vacature_relatie_id",
+                "type": "text",
+                "instructions": "Het idnr van de relatie waarvoor de vacature geldt. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_relatie_id'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a943167a4d53",
+                "label": "Relatie bedrijfsnaam",
+                "name": "wm_vacature_relatie_bedrijfsnaam",
+                "type": "text",
+                "instructions": "De bedrijfsnaam van de relatie waarvoor de vacature geldt. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_relatie_bedrijfsnaam'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a943179a4d54",
+                "label": "Bedrijfstak",
+                "name": "wm_vacature_bedrijfstak",
+                "type": "text",
+                "instructions": "Bedrijfstak van de vacature. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_bedrijfstak'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a943190a4d55",
+                "label": "Businessunits",
+                "name": "wm_vacature_businessunits",
+                "type": "text",
+                "instructions": "Alle businessunits waartoe deze vacature behoort, zie voor de velden beschrijving wm_vacature_businessunits (bij wm_vacature). <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_businessunits'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9431c9a4d56",
+                "label": "Werkmaatschappij naam",
+                "name": "wm_vacature_wmnaam",
+                "type": "text",
+                "instructions": "De naam van de werkmaatschappij. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_wmnaam'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9431e4a4d57",
+                "label": "Werkmaatschappij ID",
+                "name": "wm_vacature_wmlocatie_id",
+                "type": "number",
+                "instructions": "Het identificatienummer (idnr) van de werkmaatschappij. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_wmlocatie_id'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_5a943215a4d58",
+                "label": "Werkmaatschappij adres",
+                "name": "wm_vacature_wmlocatie_adres",
+                "type": "textarea",
+                "instructions": "Het adres van de werkmaatschappij. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_wmlocatie_adres'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": "br"
+            },
+            {
+                "key": "field_5a94324ba4d59",
+                "label": "Werkmaatschappij huisnummer",
+                "name": "wm_vacature_wmlocatie_huisnr",
+                "type": "text",
+                "instructions": "Het huisnummer van de werkmaatschappij. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_wmlocatie_huisnr'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a94325ea4d5a",
+                "label": "Werkmaatschappij huisnummer toevoeging",
+                "name": "wm_vacature_wmlocatie_huisnr_tv",
+                "type": "text",
+                "instructions": "De huisnummer toevoeging van de werkmaatschappij. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_wmlocatie_huisnr_tv'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9432b5a4d5b",
+                "label": "Werkmaatschappij plaats",
+                "name": "wm_vacature_wmlocatie_plaats",
+                "type": "text",
+                "instructions": "De plaats van de werkmaatschappij. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_wmlocatie_plaats'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9432c8a4d5c",
+                "label": "Contactpersoon ID",
+                "name": "wm_vacature_contactpersoon_id",
+                "type": "number",
+                "instructions": "Het identificatienummer van de contactpersoon (medewerker). <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_contactpersoon_id'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": 1
+            },
+            {
+                "key": "field_5a9432eaa4d5d",
+                "label": "Contactpersoon naam",
+                "name": "wm_vacature_contactpersoon",
+                "type": "text",
+                "instructions": "Naam van de contactpersoon van de werkmaatschappij. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_contactpersoon'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a94330fa4d5e",
+                "label": "Uren per week",
+                "name": "wm_vacature_urenperweek",
+                "type": "text",
+                "instructions": "Aantal uren per week van de vacature. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_urenperweek'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a943330a4d5f",
+                "label": "Werktijden",
+                "name": "wm_vacature_werktijden",
+                "type": "textarea",
+                "instructions": "De werktijden van de vacature. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_werktijden'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": "br"
+            },
+            {
+                "key": "field_5a943348a4d60",
+                "label": "Loonindicatie",
+                "name": "wm_vacature_loonindicatie",
+                "type": "text",
+                "instructions": "Loonindicatie van de vacature. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_loonindicatie'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a94335ea4d61",
+                "label": "Loonperiode",
+                "name": "wm_vacature_loonperiode",
+                "type": "text",
+                "instructions": "Loonperiode van de vacature. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_loonperiode'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a94336fa4d62",
+                "label": "Eisen",
+                "name": "wm_vacature_eisen",
+                "type": "textarea",
+                "instructions": "Eisen van de vacature. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_eisen'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": "br"
+            },
+            {
+                "key": "field_5a943385a4d63",
+                "label": "Omschrijving",
+                "name": "wm_vacature_omschrijving",
+                "type": "textarea",
+                "instructions": "Omschrijving van de vacature. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_omschrijving'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": "br"
+            },
+            {
+                "key": "field_5a94339da4d64",
+                "label": "Rijbewijs",
+                "name": "wm_vacature_rijbewijs",
+                "type": "text",
+                "instructions": "Gevraagd rijbewijs bij de vacature. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_rijbewijs'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5a9433b5a4d65",
+                "label": "Memo",
+                "name": "wm_vacature_memo",
+                "type": "text",
+                "instructions": "De algemene memotekst van de vacature. <br\/>Deze kunt u opvragen in uw template met 'wm_vacature_memo'.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "easyflex_vacatures"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5a9c73238fe22",
+        "title": "Easyflex bridge documentatie - algemeen",
+        "fields": [
+            {
+                "key": "field_5a9c732e71636",
+                "label": "Documentatie - algemeen",
+                "name": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a9c75b3c45fb",
+                "label": "Easyflex sleutel",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "De easyflex sleutel kunt u aanvragen bij easyflex zelf, of als u al wegwijs bent in het systeem dan kunt u deze zelf aanmaken. Bij het aanmaken of aanvragen van een easyflex sleutel is het belangrijk dat u het domein van uw website doorgeeft om te whitelisten. Als dit is gedaan kunt u uw sleutel bij de instellingen invullen.",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5a9c7672a3021",
+                "label": "Easyflexwordpress api",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "De easyflexwordpress api vraagt u op bij easyflexwordpress.nl. Zodra u zich heeft aangemeld bij onze service en een abonnement heeft gekozen krijgt u van ons een api sleutel. Deze api sleutel geeft u toegang tot onze diensten.",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5a9c775a4196a",
+                "label": "Algemene email instellingen",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Bij de algemene instellingen van onze plugin kunt u een bedrijfsnaam en mailadres invullen die wordt gebruikt bij notificaties en updates.",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5a9c82bf96720",
+                "label": "Minimale systeemeisen",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Of u voldoet aan de volgende systeemeisen kunt u navragen bij uw hostingpartij.\r\n\r\n<strong>Php<\/strong><br\/>\r\nDeze plugin heeft een minimale php versie nodig van 5.6 en werkt in elke versie die nieuwer is. \r\n\r\n<strong>Cronjobs<\/strong><br\/>\r\nOm automatisch te kunnen syncen moet jouw hostingpakket de mogelijkheid hebben tot cronjobs. Heeft u dat niet dan kunt u niet automatisch syncen en alleen gebruik maken van bijwerken wanneer u de instellingen handmatig update.\r\n\r\n<strong>SOAP<\/strong><br\/>\r\nEasyflex communicatie verloopt via SOAP, dus dit is ook nodig om contact te kunnen maken met Easyflex software. Heeft uw hostingpakket geen SOAP mogelijkheden dan kunt u niet met Easyflex communiceren via uw website.",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "easyflexbridge_general_settings"
+                }
+            ]
+        ],
+        "menu_order": 990,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5a9423724ea8e",
+        "title": "Easyflex bridge documentatie - vacatures",
+        "fields": [
+            {
+                "key": "field_5a9423e856bd6",
+                "label": "Documentatie - vacatures",
+                "name": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a9c77bd9d243",
+                "label": "Zoekbalk opties",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Door een selectie te maken van velden die beschikbaar zijn kunt u de zoekbalk verrijken van keuzes. De volgorde is ook te bepalen door deze op volgorde te slepen. Deze zoekbalk kunt u overal kwijt in de site dankzij een handige shortcode: [easyflexbridge widget=\"vacaturesearch\"].",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5a9c78ad36f39",
+                "label": "Filter opties",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Het filter is zelf te bepalen door een selectie te maken van beschikbare vacature velden. De volgorde is ook te bepalen door deze op volgorde te slepen. Het filter kunt u kwijt in uw template op de vacature template pagina's met een handige shortcode: [easyflexbridge widget=\"vacaturefilter\"]. U kunt deze natuurlijk ook op andere pagina's plaatsen om daar links naar de vacature pagina's te creëren.",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5a9c9831d4b6b",
+                "label": "Vacature reactie instellingen",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Een vacature reactie formulier kunt u makkelijk plaatsen via een shortcode op de vacature pagina: [easyflexbridge widget=”vacatureapply”]. Plaatst u deze niet op een vacature dan zal het formulier ook niet getoond worden. Op deze manier kunt u zelf bepalen waar het formulier komt te staan in uw template.",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5a9c79b7120a5",
+                "label": "Vacature email instellingen",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Als u bij de algemene instellingen uw bedrijfsnaam en mailadres heeft ingevuld dan worden deze gebruikt bij de correspondentie van vacature reacties. Wilt u een ander email adres gebruiken voor email correspondenties bij vacatures dan kunt u deze bij de vacature instellingen invullen zodat deze worden gebruikt.",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5a9c7a409d484",
+                "label": "Vacatures handmatig importeren",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Als de easyflex sleutel en de easyflexwordpress api is ingevuld dan kunt u de import handmatig starten door simpelweg de instellingen pagina van de vacatures te updaten. Let er wel op dat u op een dag 100 keer alle vacatures bij Easyflex kunt opvragen.",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5a9c7adb9d485",
+                "label": "Vacatures automatisch importeren \/ updaten",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Onze plugin ondersteund automatisch importeren \/ updaten van vacatures bij Easyflex. Hiervoor moet u wel een cron job instellen. Bij een cronjob geeft u aan welk script u wilt draaien, en om welke interval. In onze plugin folder kunt u het cron script vinden onder hooks\/cron\/sync.php.\r\n\r\nEen cronjob wordt meestal ingesteld door de beheerder van de website. Heeft u vragen over cronjobs dan kunt u natuurlijk ook contact opnemen met easyflexwordpress.nl",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5a9c7c75734cb",
+                "label": "Eigen vacatures in Wordpress toevoegen",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Het bijwerken van Easyflex vacatures werkt maar één kant op, nieuwe vacatures vult u namelijk in bij uw Easyflex software. Onze plugin synct deze vacatures met de vacatures in jouw Wordpress installatie. Het kan zijn dat u toch een vacature zelf wilt plaatsen. Dit is mogelijk door bij de algemene instellingen 'eigen vacatures toestaan' op ja te zetten. Hierdoor kunt u zelf vacatures toevoegen. Let er wel op dat vacatures die u in Wordpress zelf toevoegt <strong><u>niet<\/u><\/strong> worden toegevoegd in Easyflex.",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5a9c7dec05fb4",
+                "label": "Eigen wordpress post type",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Onze plugin maakt een post type in binnen het systeem van Wordpress. Dit doen we zodat u volledig gebruik kunt blijven maken van alles wat Wordpress u te bieden heeft. De naamgeving van deze custom post type kunt u bij de algemene instellingen zelf aanpassen. Voor de developers onder ons: vacatures zijn op te halen met de custom post type naam <strong><u>easyflex_vacatures<\/u><\/strong>",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5a9c7f8f8a27c",
+                "label": "Vacature velden in template",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "De velden bij een vacature kunt in in uw template ook makkelijk opvragen. Onze plugin heeft namelijk dezelfde namen als het Easyflex systeem aangehouden. Deze veldnamen kunt u terugvinden in de easyflex documentatie. Voor het gemak hebben we deze ook bij de velden in de omschrijving bijgesloten.\r\n\r\nEen voorbeeld: het vacaturenummer heeft in Easyflex de naam 'wm_vacature_idnr'. Door in uw template get_field('wm_vacature_idnr') te gebruiken haalt u deze gegevens op van een specifieke vacature. Wilt u het direct tonen, gebruikt dan the_field('wm_vacature_idnr').",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "easyflexbridge_vacatures_settings"
+                }
+            ],
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "easyflexbridge_general_settings"
+                }
+            ]
+        ],
+        "menu_order": 991,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "custom_fields",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ],
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5a9c8939aa3d4",
+        "title": "Easyflex bridge documentatie - account",
+        "fields": [
+            {
+                "key": "field_5a9c89667f85d",
+                "label": "Documentatie - accounts",
+                "name": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 0,
+                "multi_expand": 0,
+                "endpoint": 0
+            },
+            {
+                "key": "field_5a9c8a9e40262",
+                "label": "Account login",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Onze plugin slaat geen persoonsgegevens op, maar fungeert als een brug tussen Wordpress en Easyflex. Het inloggen gebeurt direct bij Easyflex, onze plugin maakt het mogelijk om een inlog formulier te plaatsen op de site. Met een handige shortcode kunt u deze plaatsen waar u maar wilt op uw website: [easyflexbridge widget=”login”]. Feedback bij elke login poging wordt in de shortcode meegegeven.",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5a9c8b61370d7",
+                "label": "Account registreren",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Onze plugin maakt registreren bij Easyflex ook mogelijk. Welke velden u wilt tonen bij registreren kunt u zelf bepalen bij de algemene instellingen. Let wel dat registreren een aantal verplichte velden heeft. Kiest u deze niet dan vult het formulier zichzelf aan met de verplichte velden. In de documentatie kunt u terugvinden welke velden verplicht zijn. Met de volgende shortcode kunt u een registratie formulier tonen: [easyflexbridge widget=”register”].\r\n\r\nBinnen Easyflex wordt je wel geregistreerd, maar zal je niet gelijk toegang krijgen. Iemand binnen het bedrijf wat gebruikt maakt van Easyflex hoort een registratie eerst te accepteren. Pas als dat is gebeurd kan een gebruiker zichzelf inloggen om het reageren op vacatures makkelijker te maken met vooraf ingevulde velden.",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            },
+            {
+                "key": "field_5a9c95f6aee4e",
+                "label": "Account informatie",
+                "name": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Bij een succesvolle login worden er gegevens teruggegeven die u kunt inzien. Inzage van deze gegevens zijn beperkt tot een aantal informatieve velden die kunnen helpen bij het reageren op een vacature. Dankzij de nieuwe privacywet kunnen we niet alle gegevens tonen, zoals burgerlijke staat of mailadres. Het is in Easyflex nog niet mogelijk om persoonsgegevens aan te kunnen passen buiten de Easyflex software. U kunt dus wel informatie tonen, maar niet updaten. Bij de algemene plugin instellingen kunt u aangeven welke velden u graag in het account overzicht zou willen tonen. Met de volgende shortcode kunt u gegevens tonen: [easyflexbridge widget=”account”]. Bent u nog niet ingelogd dan zal de shortcode een login venster tonen.\r\n\r\nDe gegevens die opgehaald zijn na het inloggen worden gebruikt om de door u gekozen reactie formulier velden waar mogelijk alvast van account informatie te voorzien.",
+                "new_lines": "wpautop",
+                "esc_html": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "easyflexbridge_general_settings"
+                }
+            ]
+        ],
+        "menu_order": 992,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]
